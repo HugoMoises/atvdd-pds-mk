@@ -1,8 +1,0 @@
-class Animal:
-    def __init__(self, nome):
-        self.nome = nome
-        self._tipo = "Animal"
-        self.__som = "Som"
-    
-    def fazer_som(self):
-        return self.__som
